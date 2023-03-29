@@ -41,9 +41,9 @@ public Utilisateur() {
 	super();
 	// TODO Auto-generated constructor stub
 }
-public void sayHello()
-{
-System.out.println("Bonjour");	
+@Override
+public String toString() {
+	return "Utilisateur [nom=" + nom + ", prenom=" + prenom + ", adresse=" + adresse + ", age=" + age + "]";
 }
 
 
